@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Burger House — hamburgers faits maison, viande fraîche et recettes généreuses. Découvrez le menu, les promotions et nos coordonnées."
+    />
+    <meta name="theme-color" content="#171310" />
+    <title>Burger House — Hamburgers faits maison</title>
+    <link rel="stylesheet" href="css/css.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#Menu">Aller au menu</a>
+
+    <header class="site-header">
+      <div class="shell site-header__inner">
+        <a class="brand" href="#Accueil" aria-label="Burger House, retour à l'accueil">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span class="brand__name">Burger&nbsp;House</span>
+        </a>
+
+        <nav class="site-nav" aria-label="Navigation principale">
+          <a href="#Accueil">Accueil</a>
+          <a href="#Menu">Menu</a>
+          <a href="#Promotions">Promotions</a>
+          <a href="#Contact">Contact</a>
+        </nav>
+
+        <a class="btn btn--solid site-header__cta" href="#Contact">Commander</a>
+      </div>
+    </header>
+
+    <main id="Accueil">
+      <section class="hero">
+        <div class="shell hero__inner">
+          <div class="hero__text">
+            <p class="eyebrow">Fait maison · Casablanca</p>
+            <h1>Le burger qui ne triche pas.</h1>
+            <p class="hero__lead">
+              Viande fraîche du jour, pain brioché toasté au beurre et sauces
+              préparées sur place. Six recettes, zéro compromis.
+            </p>
+
+            <div class="hero__actions">
+              <a class="btn btn--solid" href="#Menu">Voir le menu</a>
+              <a class="btn btn--ghost" href="#Contact">Nous trouver</a>
+            </div>
+
+            <dl class="hero__stats">
+              <div>
+                <dt>100&nbsp;%</dt>
+                <dd>Frais du jour</dd>
+              </div>
+              <div>
+                <dt>15 min</dt>
+                <dd>Préparation</dd>
+              </div>
+              <div>
+                <dt>6</dt>
+                <dd>Recettes maison</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="hero__visual">
+            <div class="hero__disc" aria-hidden="true"></div>
+            <img
+              class="hero__image"
+              src="images/burgershero400.png"
+              alt="Burger maison garni de fromage fondu, salade et tomate"
+              width="400"
+              height="400"
+              fetchpriority="high"
+            />
+            <div class="hero__badge">
+              <strong>4,9/5</strong>
+              <span>+1 200 avis</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu" id="Menu" aria-labelledby="menu-title">
+        <div class="shell">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">La carte</p>
+              <h2 id="menu-title">Nos burgers</h2>
+            </div>
+            <p class="section-head__note">
+              Tous nos burgers sont servis avec frites maison et cornichons.
+            </p>
+          </div>
+
+          <div class="products-grid">
+            <article class="card">
+              <div class="card__media">
+                <img
+                  src="images/classicburger.png"
+                  alt="Classic Burger"
+                  width="200"
+                  height="200"
+                  loading="lazy"
+                />
+                <span class="tag tag--best">Best-seller</span>
+              </div>
+              <div class="card__body">
+                <div class="card__title-row">
+                  <h3>Classic Burger</h3>
+                  <span class="price">45&nbsp;DH</span>
+                </div>
+                <p>Pain grillé, steak haché, cheddar, salade, tomate, sauce maison.</p>
+                <a class="card__cta" href="#Contact">
+                  Commander
+                  <span aria-hidden="true">→</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card__media">
+                <img
+                  src="images/cheezeburger.png"
+                  alt="Cheese Burger"
+                  width="200"
+                  height="200"
+                  loading="lazy"
+                />
+                <span class="tag">Double fromage</span>
+              </div>
+              <div class="card__body">
+                <div class="card__title-row">
+                  <h3>Cheese Burger</h3>
+                  <span class="price">52&nbsp;DH</span>
+                </div>
+                <p>Double cheddar fondant, oignons confits et sauce au poivre.</p>
+                <a class="card__cta" href="#Contact">
+                  Commander
+                  <span aria-hidden="true">→</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card__media">
+                <img
+                  src="images/beefburger.png"
+                  alt="Beef Burger"
+                  width="200"
+                  height="200"
+                  loading="lazy"
+                />
+              </div>
+              <div class="card__body">
+                <div class="card__title-row">
+                  <h3>Beef Burger</h3>
+                  <span class="price">58&nbsp;DH</span>
+                </div>
+                <p>Steak de bœuf grillé à la flamme, cheddar affiné et roquette.</p>
+                <a class="card__cta" href="#Contact">
+                  Commander
+                  <span aria-hidden="true">→</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card__media">
+                <img
+                  src="images/spicyburger.png"
+                  alt="Spicy Burger"
+                  width="200"
+                  height="200"
+                  loading="lazy"
+                />
+                <span class="tag tag--hot">Épicé</span>
+              </div>
+              <div class="card__body">
+                <div class="card__title-row">
+                  <h3>Spicy Burger</h3>
+                  <span class="price">55&nbsp;DH</span>
+                </div>
+                <p>Jalapeños, sauce harissa maison et cheddar pour les courageux.</p>
+                <a class="card__cta" href="#Contact">
+                  Commander
+                  <span aria-hidden="true">→</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card__media">
+                <img
+                  src="images/chickenburger.png"
+                  alt="Chicken Burger"
+                  width="200"
+                  height="200"
+                  loading="lazy"
+                />
+              </div>
+              <div class="card__body">
+                <div class="card__title-row">
+                  <h3>Chicken Burger</h3>
+                  <span class="price">50&nbsp;DH</span>
+                </div>
+                <p>Poulet croustillant, laitue fraîche, mayonnaise citronnée.</p>
+                <a class="card__cta" href="#Contact">
+                  Commander
+                  <span aria-hidden="true">→</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card__media">
+                <img
+                  src="images/veggieburger.png"
+                  alt="Veggie Burger"
+                  width="200"
+                  height="200"
+                  loading="lazy"
+                />
+                <span class="tag tag--veg">Végé</span>
+              </div>
+              <div class="card__body">
+                <div class="card__title-row">
+                  <h3>Veggie Burger</h3>
+                  <span class="price">48&nbsp;DH</span>
+                </div>
+                <p>Galette végétale aux pois chiches, crudités et sauce légère.</p>
+                <a class="card__cta" href="#Contact">
+                  Commander
+                  <span aria-hidden="true">→</span>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="promotions" id="Promotions" aria-labelledby="promos-title">
+        <div class="shell">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Bons plans</p>
+              <h2 id="promos-title">Promotions du moment</h2>
+            </div>
+          </div>
+
+          <div class="promos-grid">
+            <article class="promo promo--sun">
+              <p class="promo__kicker">Lundi au vendredi · 12h–15h</p>
+              <h3>Menu Midi complet</h3>
+              <p>
+                Un burger au choix, frites maison et boisson fraîche. Le
+                déjeuner qui tient jusqu'au soir.
+              </p>
+              <p class="promo__price">
+                <span>79 DH</span>
+                <s>99 DH</s>
+              </p>
+              <a class="btn btn--dark" href="#Contact">Réserver une table</a>
+            </article>
+
+            <article class="promo promo--ink">
+              <p class="promo__kicker">Toute la semaine</p>
+              <h3>Étudiants : −15&nbsp;%</h3>
+              <p>
+                Sur présentation de la carte étudiante, profitez de 15&nbsp;% de
+                remise sur toute la carte, sur place ou à emporter.
+              </p>
+              <p class="promo__meta">Non cumulable avec le menu midi.</p>
+              <a class="btn btn--solid" href="#Contact">J'en profite</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="Contact" aria-labelledby="contact-title">
+        <div class="shell contact__inner">
+          <div class="contact__text">
+            <p class="eyebrow">On vous attend</p>
+            <h2 id="contact-title">Passez nous voir</h2>
+            <p class="contact__lead">
+              Commande à emporter ou sur place. Pour les groupes de plus de six
+              personnes, un petit appel nous aide à tout préparer.
+            </p>
+
+            <a class="btn btn--solid contact__phone" href="tel:+212522000000">
+              05 22 00 00 00
+            </a>
+          </div>
+
+          <div class="contact__cards">
+            <div class="info-card">
+              <h3>Adresse</h3>
+              <p>24, rue des Saveurs<br />20250 Casablanca</p>
+            </div>
+
+            <div class="info-card">
+              <h3>Horaires</h3>
+              <p>
+                Lundi – jeudi : 11h30 – 22h30<br />
+                Vendredi – samedi : 11h30 – 23h30<br />
+                Dimanche : 12h – 22h
+              </p>
+            </div>
+
+            <div class="info-card">
+              <h3>À emporter</h3>
+              <p>
+                Commandes prêtes en 15 minutes.<br />
+                <a href="mailto:bonjour@burgerhouse.ma">bonjour@burgerhouse.ma</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell site-footer__inner">
+        <p>&copy; 2026 Burger House — Tous droits réservés.</p>
+        <p class="site-footer__note">Fait avec des ingrédients frais, à Casablanca.</p>
+      </div>
+    </footer>
+  </body>
+</html>

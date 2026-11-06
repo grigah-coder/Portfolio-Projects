@@ -1,0 +1,15 @@
+C:\Users\hzluc\Projects\Portfolio\Projects\CS\ProjectGestionDentaire\bin\Debug\net10.0-windows\GestionDentaire.exe
+C:\Users\hzluc\Projects\Portfolio\Projects\CS\ProjectGestionDentaire\bin\Debug\net10.0-windows\GestionDentaire.deps.json
+C:\Users\hzluc\Projects\Portfolio\Projects\CS\ProjectGestionDentaire\bin\Debug\net10.0-windows\GestionDentaire.runtimeconfig.json
+C:\Users\hzluc\Projects\Portfolio\Projects\CS\ProjectGestionDentaire\bin\Debug\net10.0-windows\GestionDentaire.dll
+C:\Users\hzluc\Projects\Portfolio\Projects\CS\ProjectGestionDentaire\bin\Debug\net10.0-windows\GestionDentaire.pdb
+C:\Users\hzluc\Projects\Portfolio\Projects\CS\ProjectGestionDentaire\obj\Debug\net10.0-windows\GestionDentaire.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hzluc\Projects\Portfolio\Projects\CS\ProjectGestionDentaire\obj\Debug\net10.0-windows\GestionDentaire.AssemblyInfoInputs.cache
+C:\Users\hzluc\Projects\Portfolio\Projects\CS\ProjectGestionDentaire\obj\Debug\net10.0-windows\GestionDentaire.AssemblyInfo.cs
+C:\Users\hzluc\Projects\Portfolio\Projects\CS\ProjectGestionDentaire\obj\Debug\net10.0-windows\GestionDentaire.csproj.CoreCompileInputs.cache
+C:\Users\hzluc\Projects\Portfolio\Projects\CS\ProjectGestionDentaire\obj\Debug\net10.0-windows\GestionDentaire.sourcelink.json
+C:\Users\hzluc\Projects\Portfolio\Projects\CS\ProjectGestionDentaire\obj\Debug\net10.0-windows\GestionDentaire.dll
+C:\Users\hzluc\Projects\Portfolio\Projects\CS\ProjectGestionDentaire\obj\Debug\net10.0-windows\refint\GestionDentaire.dll
+C:\Users\hzluc\Projects\Portfolio\Projects\CS\ProjectGestionDentaire\obj\Debug\net10.0-windows\GestionDentaire.pdb
+C:\Users\hzluc\Projects\Portfolio\Projects\CS\ProjectGestionDentaire\obj\Debug\net10.0-windows\GestionDentaire.genruntimeconfig.cache
+C:\Users\hzluc\Projects\Portfolio\Projects\CS\ProjectGestionDentaire\obj\Debug\net10.0-windows\ref\GestionDentaire.dll
